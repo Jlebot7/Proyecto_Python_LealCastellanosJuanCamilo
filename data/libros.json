@@ -1,0 +1,10 @@
+[
+    {
+        "Nombre": "El Hobbit",
+        "Autor": "Tolkien",
+        "Genero": "Ficcion",
+        "Year": 1997,
+        "Estado": "Disponible",
+        "Prestado a": null
+    }
+]
