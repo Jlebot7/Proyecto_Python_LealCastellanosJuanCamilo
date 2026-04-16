@@ -9,6 +9,7 @@ Gestor_Biblioteca_Virtual/
 ├── main.py              # Menú principal
 ├── gestion_libros.py    # Registrar y listar libros
 ├── buscar_libros.py     # Búsqueda por título/autor/género
+├── audit.py             # Audita los libros con errores y devuelve un reporte
 ├── prestamos.py         # Prestar y devolver
 ├── reportes.py          # Reportes agrupados por género + JSON
 ├── data/
@@ -20,7 +21,7 @@ Gestor_Biblioteca_Virtual/
 ## Cómo Ejecutar
 1. `cd biblioteca`
 2. `python main.py`
-3. Usa opciones 1-7.
+3. Usa opciones 1-8.
 
 ## Ejemplos de Uso
 - **Registrar**: Op1, ingresa datos → "Libro X registrado."
@@ -29,6 +30,7 @@ Gestor_Biblioteca_Virtual/
 - **Prestar "1984" a "Juan"**: Op4 → Estado cambia a Prestado.
 - **Devolver**: Op5 → Vuelve a Disponible.
 - **Reporte**: Op6 → Muestra por género con pausas, guarda `reporte_libros_*.json`.
+- **Auditoria**: Op7 → Muestra los errores por tipo, guarda `reporte_auditoria_libros_*.json`.
 
 ## Formato libros.json
 ```json
